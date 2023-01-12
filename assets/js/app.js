@@ -1,5 +1,293 @@
 let arr = [
   {
+    name: '营商环境数据大屏',
+    desc: '项目为江西省高安市政府营商环境可视化数据监控大屏',
+    type: 1,
+    date: '2022.12 - 2023.01',
+    logo: './assets/images/yshj_logo.png',
+    tags: ['ECharts'],
+    imgs: [
+      './assets/images/yshj_view_01.png',
+    ]
+  },
+  {
+    name: '营商环境管理平台',
+    desc: '项目为江西省高安市政府营商环境管理系统，功能包含政策管理、金融管理、企业管理等',
+    type: 1,
+    date: '2022.12 - 2023.01',
+    logo: './assets/images/yshj_logo.png',
+    tags: ['Vue', 'ElementUI'],
+    imgs: [
+      './assets/images/yshj_01.png',
+      './assets/images/yshj_02.png',
+    ]
+  },
+  {
+    name: '阳洋出行Web司机端',
+    desc: '该项目为司机端Web版本，方便企业司机管理自有订单及车辆',
+    type: 1,
+    date: '2022.10 - 11',
+    logo: './assets/images/yycx_logo.png',
+    tags: ['Vue', 'ElementPlus', 'TS', 'Vite', 'AMap'],
+    imgs: [
+      './assets/images/yycx_admin_04.png',
+    ]
+  },
+  {
+    name: '阳洋出行官网 2.0',
+    desc: '阳洋出行官网 2.0',
+    type: 1,
+    date: '2021.03',
+    logo: './assets/images/yycx_logo.png',
+    tags: ['Vue', 'Nuxt', 'nuxt-fullpage'],
+    imgs: [
+      './assets/images/yycx_01.png',
+    ]
+  },
+  {
+    name: '阳洋出行维保系统',
+    desc: '该项目为阳洋出行针对修理厂为车辆提供维保服务进行管理',
+    type: 1,
+    date: '2021.05',
+    logo: './assets/images/yycx_logo.png',
+    tags: ['Vue', 'ElementUI'],
+    imgs: [
+      './assets/images/yycx_admin_05.png',
+    ]
+  },
+  {
+    name: '阳洋出行公务端',
+    desc: '项目为阳洋出行政府单位公务用车端，通过webapp网页嵌入到原生中组成混合APP(Hybrid App)',
+    type: 2,
+    date: '2020.05 - 至今',
+    logo: './assets/images/yycx_logo.png',
+    tags: ['Vue', 'Vant'],
+    imgs: [
+      './assets/images/yycx_app_official_01.png',
+      './assets/images/yycx_app_official_02.png',
+      './assets/images/yycx_app_official_03.png',
+    ]
+  },
+  {
+    name: '阳洋出行乘客端',
+    desc: '该项目为阳洋出行乘客端，通过webapp网页嵌入到原生中组成混合APP(Hybrid App)',
+    type: 2,
+    date: '2020.03 - 至今',
+    logo: './assets/images/yycx_logo.png',
+    tags: ['Vue', 'Vant'],
+    imgs: [
+      './assets/images/yycx_app_user_01.png',
+      './assets/images/yycx_app_user_02.png',
+      './assets/images/yycx_app_user_03.png',
+    ]
+  },
+  {
+    name: '阳洋出行司机端',
+    desc: '该项目为阳洋出行司机端，通过webapp网页嵌入到原生中组成混合APP(Hybrid App)',
+    type: 2,
+    date: '2020.03 - 至今',
+    logo: './assets/images/yycx_logo.png',
+    tags: ['Vue', 'Vant'],
+    imgs: [
+      './assets/images/yycx_app_driver_01.png',
+      './assets/images/yycx_app_driver_02.png',
+      './assets/images/yycx_app_driver_03.png',
+    ]
+  },
+  {
+    name: '阳洋出行公务后台',
+    desc: '项目为阳洋出行针对政府单位公务人员提供用车管理系统',
+    type: 1,
+    date: '2020.03 - 至今',
+    logo: './assets/images/yycx_logo.png',
+    tags: ['Vue', 'ElementUI', 'ECharts', 'AMapUI'],
+    imgs: [
+      './assets/images/yycx_admin_03.png',
+    ]
+  },
+  {
+    name: '阳洋出行业务后台',
+    desc: '项目为阳洋出行地区分公司管理系统，功能包含订单管理、车辆管理、乘客管理、司机管理等',
+    type: 1,
+    date: '2020.03 - 至今',
+    logo: './assets/images/yycx_logo.png',
+    tags: ['Vue', 'ElementUI', 'ECharts', 'wangEditor'],
+    imgs: [
+      './assets/images/yycx_admin_02.png',
+    ]
+  },
+  {
+    name: '阳洋出行管理后台',
+    desc: '项目为阳洋出行总公司管理系统，功能包含订单管理、车辆管理、乘客管理、司机管理、财务管理等',
+    type: 1,
+    date: '2020.02 - 至今',
+    logo: './assets/images/yycx_logo.png',
+    tags: ['Vue', 'ElementUI', 'ECharts', 'wangEditor'],
+    imgs: [
+      './assets/images/yycx_admin_01.png',
+    ]
+  },
+  {
+    name: '会务用车系统（用车端）',
+    desc: '阳洋出行针对大型会议用车开发的管理系统，功能包含实时调度监控、任务下达、车辆追踪',
+    type: 1,
+    date: '2019.07',
+    logo: './assets/images/yycx_logo.png',
+    tags: ['Vue', 'ElementUI', 'AMap'],
+    imgs: [
+      './assets/images/yycx_hwyc_03.png',
+    ]
+  },
+  {
+    name: '会务用车系统（供车端）',
+    desc: '阳洋出行针对大型会议用车开发的管理系统，功能包含实时调度监控、任务下达、车辆追踪',
+    type: 1,
+    date: '2019.07',
+    logo: './assets/images/yycx_logo.png',
+    tags: ['Vue', 'ElementUI', 'AMap'],
+    imgs: [
+      './assets/images/yycx_hwyc_02.png',
+    ]
+  },
+  {
+    name: '会务用车系统（管理端）',
+    desc: '阳洋出行针对大型会议用车开发的管理系统，功能包含实时调度监控、任务下达、车辆追踪',
+    type: 1,
+    date: '2019.07',
+    logo: './assets/images/yycx_logo.png',
+    tags: ['Vue', 'ElementUI', 'AMap'],
+    imgs: [
+      './assets/images/yycx_hwyc_01.png',
+      './assets/images/yycx_hwyc_04.png',
+    ]
+  },
+  {
+    name: '阳洋出行乘客端',
+    desc: '阳洋出行针对用户提供包车、租车、跨城车等服务',
+    type: 5,
+    date: '2019.01 - 2020.01',
+    logo: './assets/images/yycx_logo.png',
+    tags: ['微信小程序'],
+    imgs: [
+      './assets/images/yycx_ckd_01.jpg',
+      './assets/images/yycx_ckd_02.jpg',
+      './assets/images/yycx_ckd_03.jpg',
+    ]
+  },
+  {
+    name: '阳洋出行司机端',
+    desc: '阳洋出行司机端',
+    type: 5,
+    date: '2019.01 - 2019.10',
+    logo: './assets/images/yycx_logo.png',
+    tags: ['微信小程序'],
+    imgs: [
+      './assets/images/yycx_sjd_01.jpg',
+      './assets/images/yycx_sjd_02.jpg',
+    ]
+  },
+  {
+    name: '洗车机数据管理系统',
+    desc: '项目为成都温江公交洗车机设备数据管理系统，主要通过设备数据管理及导出、分配公交车队',
+    type: 4,
+    date: '2021.12',
+    logo: './assets/images/xcj_logo.png',
+    tags: ['Vue', 'ElementUI', 'Electron'],
+    imgs: [
+      './assets/images/xcj_01.png',
+    ]
+  },
+  {
+    name: '见山谷官网',
+    desc: '项目为见山谷官网',
+    type: 1,
+    date: '2021.03',
+    logo: './assets/images/jsg_logo.jpg',
+    tags: ['HTML'],
+    imgs: [
+      './assets/images/jsg_01.png',
+    ]
+  },
+  {
+    name: '见山谷',
+    desc: '项目为见山谷泰式SPA连锁门店针对客户提供服务预约、会员积分、电子礼品卡等功能',
+    type: 5,
+    date: '2021.01 - 2021.03',
+    logo: './assets/images/jsg_logo.jpg',
+    tags: ['微信小程序'],
+    imgs: [
+      './assets/images/jsg_xcx_01.jpg',
+      './assets/images/jsg_xcx_02.jpg',
+      './assets/images/jsg_xcx_03.jpg',
+    ]
+  },
+  {
+    name: '熊猫秘书',
+    desc: '项目为熊猫秘书针对企业提供定制化服务，功能包含公司注册、业务代办、税务处理等功能',
+    type: 5,
+    date: '2021.01 - 2021.03',
+    logo: './assets/images/xmms_logo.jpg',
+    tags: ['微信小程序'],
+    imgs: [
+      './assets/images/xmms_01.png',
+      './assets/images/xmms_02.png',
+      './assets/images/xmms_03.png',
+      './assets/images/xmms_04.png',
+      './assets/images/xmms_05.png',
+      './assets/images/xmms_06.png',
+    ]
+  },
+  {
+    name: '贵州气候监测系统',
+    desc: '项目为贵族智能气候监测与评价业务平台，提供数据查询、数据分享、GIS可视化制图等功能',
+    type: 1,
+    date: '2020.10 - 2021.02',
+    logo: './assets/images/gzqh_logo.webp',
+    tags: ['Vue', 'ElementUI', 'ECharts', 'Mapbox'],
+    imgs: [
+      './assets/images/gzqh_01.png',
+      './assets/images/gzqh_02.png',
+      './assets/images/gzqh_03.png',
+      './assets/images/gzqh_04.png',
+    ]
+  },
+  {
+    name: '鞋仓',
+    desc: '项目为阿么供应商平台手机版H5',
+    type: 2,
+    date: '2020.09',
+    logo: './assets/images/am_logo.webp',
+    tags: ['uni-app', 'HBuilderX'],
+    imgs: [
+      './assets/images/am_xch5_01.png',
+      './assets/images/am_xch5_02.png',
+    ]
+  },
+  {
+    name: '阿么供应商平台（鞋仓）',
+    desc: '项目为阿么针对供应商提供的生产鞋款线上选款管理系统',
+    type: 1,
+    date: '2020.06 - 08',
+    logo: './assets/images/am_logo.webp',
+    tags: ['Vue', 'ElementUI'],
+    imgs: [
+      './assets/images/am_xc_01.png',
+    ]
+  },
+  {
+    name: '阿么一体化管理系统',
+    desc: '项目为成都阿么女鞋针对ERP仓储数据管理及销售数据统计分析开发的一体化系统',
+    type: 1,
+    date: '2020.03 - 09',
+    logo: './assets/images/am_logo.webp',
+    tags: ['Vue', 'ElementUI'],
+    imgs: [
+      './assets/images/am_yth_01.png',
+      './assets/images/am_yth_02.png',
+      './assets/images/am_yth_03.png',
+    ]
+  },
+  {
     name: '幽兰·兰幽幽',
     desc: '幽兰·兰幽幽官网',
     type: 1,
@@ -23,6 +311,63 @@ let arr = [
       './assets/images/lzyy2_03.jpg',
       './assets/images/lzyy2_04.jpg',
       './assets/images/lzyy2_05.jpg',
+    ]
+  },
+  {
+    name: '剪刀侠男士发型',
+    desc: '项目为美发连锁品牌"剪刀侠"针对男士发型展示发的微信小程序，功能包含男士发型推荐查询、理发教程视频等',
+    type: 5,
+    date: '2019.11 - 12',
+    logo: './assets/images/jdx_logo.jpg',
+    tags: ['微信小程序'],
+    imgs: [
+      './assets/images/jdx_01.png',
+      './assets/images/jdx_02.png',
+      './assets/images/jdx_03.png',
+    ]
+  },
+  {
+    name: '蓝萌',
+    desc: '项目为蓝萌共享充电宝线上商城，提供商城购物、商品分销等功能',
+    type: 3,
+    date: '2019.07 - 10',
+    logo: './assets/images/lm_logo.webp',
+    tags: ['uni-app', 'HBuilderX'],
+    imgs: [
+      './assets/images/lm_app_01.png',
+      './assets/images/lm_app_02.png',
+      './assets/images/lm_app_03.png',
+      './assets/images/lm_app_04.png',
+      './assets/images/lm_app_05.png',
+      './assets/images/lm_app_06.png',
+    ]
+  },
+  {
+    name: '峰尚美',
+    desc: '项目为峰尚美高端定制内衣订单进度查询系统',
+    type: 5,
+    date: '2019.09',
+    logo: './assets/images/fsm_logo.jpg',
+    tags: ['微信小程序'],
+    imgs: [
+      './assets/images/fsm_01.png',
+      './assets/images/fsm_02.png',
+      './assets/images/fsm_03.png',
+      './assets/images/fsm_04.png',
+    ]
+  },
+  {
+    name: '歌蒂梵',
+    desc: '项目为成都歌蒂梵美容连锁开发的线上购物服务预约的小程序，功能包含购物、预约、拼团秒杀等功能',
+    type: 5,
+    date: '2019.06 - 08',
+    logo: './assets/images/gdf_logo.jpg',
+    tags: ['微信小程序'],
+    imgs: [
+      './assets/images/gdf_01.jpg',
+      './assets/images/gdf_02.jpg',
+      './assets/images/gdf_03.jpg',
+      './assets/images/gdf_04.jpg',
     ]
   },
   {
@@ -75,14 +420,23 @@ let arr = [
     date: '2018.08 - 09',
     logo: './assets/images/tl_logo.png',
     tags: ['MUI', 'H5Plus', 'HBuilder', 'AntV'],
+    imgs: [
+      './assets/images/tl_logo.png',
+    ]
   },
   {
-    name: '仓储管理PDA',
+    name: '途络WMS（PDA）',
     desc: '项目为遂宁威斯腾物流园针对仓储管理系统扫码PDA端开发，主要功能为收货、上架、拣货、复核、交接、盘点，适配的设备为销邦X8和霍尼韦尔手持扫描器。',
     type: 3,
     date: '2018.08 - 09',
     logo: './assets/images/tl_logo.png',
     tags: ['MUI', 'H5Plus', 'HBuilder'],
+    imgs: [
+      './assets/images/tlwms_app_01.png',
+      './assets/images/tlwms_app_02.png',
+      './assets/images/tlwms_app_03.png',
+      './assets/images/tlwms_app_04.png',
+    ]
   },
   {
     name: '民航招飞（考生端）',
@@ -103,7 +457,13 @@ let arr = [
     type: 3,
     date: '2018.06 - 07',
     logo: './assets/images/jtw_logo.png',
-    tags: ['MUI', 'H5Plus', 'HBuilder']
+    tags: ['MUI', 'H5Plus', 'HBuilder'],
+    imgs: [
+      './assets/images/tl_jt_01.png',
+      './assets/images/tl_jt_02.png',
+      './assets/images/tl_jt_03.png',
+      './assets/images/tl_jt_04.png',
+    ]
   },
   {
     name: '途络小程序',
@@ -119,12 +479,17 @@ let arr = [
     ]
   },
   {
-    name: '平行车交易',
+    name: '途络汽车交易',
     desc: '项目为公司有意针对国外进口平行车开发的汽车交易平台，功能包含：进口平行车发布、搜索、订单管理、仓储管理、汽车供应商查询等',
     type: 3,
     date: '2018.03 - 05',
     logo: './assets/images/tl_logo.png',
     tags: ['MUI', 'H5Plus', 'HBuilder'],
+    imgs: [
+      './assets/images/tlqcjy_app_01.png',
+      './assets/images/tlqcjy_app_02.png',
+      './assets/images/tlqcjy_app_03.png',
+    ]
   },
   {
     name: '途络管理系统桌面应用',
@@ -133,9 +498,26 @@ let arr = [
     date: '2018.01',
     logo: './assets/images/tl_logo.png',
     tags: ['Electron', 'NSIS'],
+    imgs: [
+      './assets/images/tl_logo.png',
+    ]
   },
   {
-    name: '途络',
+    name: '途络 2.0',
+    desc: '项目为遂宁维斯滕物流园对外提供物流服务APP，功能包含：采购商品、物流配送、发货、商品及物流订单管理',
+    type: 3,
+    date: '2018.01 - 03',
+    logo: './assets/images/tl_logo.png',
+    tags: ['MUI', 'H5Plus', 'HBuilder'],
+    imgs: [
+      './assets/images/tl2_app_01.jpg',
+      './assets/images/tl2_app_02.jpg',
+      './assets/images/tl2_app_03.jpg',
+      './assets/images/tl2_app_04.jpg',
+    ]
+  },
+  {
+    name: '途络 1.0',
     desc: '项目为遂宁维斯滕物流园对外提供物流服务APP，功能包含：采购商品、物流配送、发货、商品及物流订单管理',
     type: 3,
     date: '2017.09 - 12',
@@ -172,6 +554,9 @@ let arr = [
     tags: ['MUI', 'H5Plus', 'HBuilder'],
     imgs: [
       './assets/images/bj_app_01.png',
+      './assets/images/bj_app_02.png',
+      './assets/images/bj_app_03.png',
+      './assets/images/bj_app_04.png',
     ]
   },
   {
@@ -234,12 +619,15 @@ let arr = [
     date: '2015.09 - 11',
     logo: './assets/images/ydd_logo.png',
     tags: ['JQuery'],
+    imgs: [
+      './assets/images/ydd_logo.png',
+    ]
   }
 ]
 
 
 function renderList() {
-  //type项目类型 1=PC 2=H5 3=APP  4=windows桌面应用 5=微信小程序 6=Pad
+  //type项目类型 1=PC 2=H5 3=APP 4=windows桌面应用 5=微信小程序 6=Pad
   let str = ''
   for (let i in arr) {
     let item = arr[i]
@@ -248,8 +636,9 @@ function renderList() {
         <div class="img-wrap"><span class="type type-${item.type}"></span>`
     if (item.imgs && item.imgs.length) {
       for (let l in item.imgs) {
-        str += `<img src="${item.imgs[l]}">`
-        if ((item.type == 1 || item.type == 4 || item.type == 6) && l >= 0 || l >= 2) break
+        let isShowOne = item.type == 1 || item.type == 4 || item.type == 6;
+        str += `<img class="img-item ${isShowOne ? ' cover' : ''}" src="${item.imgs[l]}">`
+        if (isShowOne && l >= 0 || l >= 2) break
       }
     }
     str += `</div>

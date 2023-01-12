@@ -8,11 +8,12 @@
   --greyLight-3: #bec8e4;
   --greyDark: #9baacf;
 }
+/* CDN 服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
 @font-face {
   font-family: 'iconfont';  /* Project id 3859485 */
-  src: url('//at.alicdn.com/t/c/font_3859485_whhzb8g31d.woff2?t=1673406970027') format('woff2'),
-       url('//at.alicdn.com/t/c/font_3859485_whhzb8g31d.woff?t=1673406970027') format('woff'),
-       url('//at.alicdn.com/t/c/font_3859485_whhzb8g31d.ttf?t=1673406970027') format('truetype');
+  src: url('//at.alicdn.com/t/c/font_3859485_odt0i7ynj1o.woff2?t=1673488337391') format('woff2'),
+       url('//at.alicdn.com/t/c/font_3859485_odt0i7ynj1o.woff?t=1673488337391') format('woff'),
+       url('//at.alicdn.com/t/c/font_3859485_odt0i7ynj1o.ttf?t=1673488337391') format('truetype');
 }
 
 *,
@@ -43,7 +44,7 @@ html{
 .card-item {
   width: 0;
   flex: 0 0 31%;
-  height: 22rem;
+  height: 23rem;
   border-radius: 2rem;
   box-shadow: 0.8rem 0.8rem 1.4rem var(--greyLight-2), -0.2rem -0.2rem 1.8rem var(--white);
   padding: 2rem;
@@ -67,6 +68,7 @@ html{
   bottom: 0;
   box-shadow: inset 0.2rem 0.2rem 0.5rem var(--greyLight-2), inset -0.2rem -0.2rem 0.5rem var(--white);
   border-radius: 1rem;
+  pointer-events: none;
 }
 .card-item .img-wrap:empty::before{
   content: '暂无图片';
@@ -77,6 +79,11 @@ html{
 .card-item .img-wrap img{
   flex: 1;
   width: 0;
+}
+.card-item .img-wrap .cover{
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
 }
 .card-item .img-wrap .type{
   width: 7rem;
@@ -111,7 +118,7 @@ html{
 }
 .card-item .img-wrap .type-4::before{
   content: '\e617';
-  color: #0079d6;
+  color:#835fa5;
 }
 .card-item .img-wrap .type-5::before{
   content: '\e61a';
@@ -119,7 +126,7 @@ html{
 }
 .card-item .img-wrap .type-6::before{
   content: '\e619';
-  color: #010101;
+  color: #1f91d3;
 }
 .card-item .title{
   font-weight: 300;
@@ -132,40 +139,11 @@ html{
   width: 1.2rem;
   height: 1.2rem;
   border-radius: 50%;
-  object-fit: cover;
+  object-fit: contain;
   margin-right: .5rem;
 }
 .card-item .title .name{
   flex: 1;
-}
-.card-item .title .type{
-  font-size: 24px;
-  font-family:"iconfont";
-  margin-left: .2rem;
-}
-.card-item .title .type-1::before{
-  content: '\e616';
-  font-weight: bold;
-}
-.card-item .title .type-2::before{
-  content: '\e614';
-  color: #e04c28;
-}
-.card-item .title .type-3::before{
-  content: '\e618';
-  color: #0081ff;
-}
-.card-item .title .type-4::before{
-  content: '\e617';
-  color: #0079d6;
-}
-.card-item .title .type-5::before{
-  content: '\e61a';
-  color: #00c773;
-}
-.card-item .title .type-6::before{
-  content: '\e61b';
-  color: #010101;
 }
 .card-item .title .date{
   font-size: 14px;
@@ -219,6 +197,7 @@ html{
     padding: 1.5rem 1.5rem 3rem;
   }
   .card-item {
+    height: 22rem;
     flex: 0 0 100%;
     padding: 1.5rem;
     margin-top: 1.5rem;
