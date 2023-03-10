@@ -28,7 +28,7 @@ let arr = [
     type: 1,
     date: '2022.10 - 11',
     logo: './assets/images/yycx_logo.png',
-    tags: ['Vue', 'ElementPlus', 'TS', 'Vite', 'AMap'],
+    tags: ['Vue3', 'ElementPlus', 'TS', 'Vite', 'AMap'],
     imgs: [
       './assets/images/yycx_admin_04.png',
     ]
@@ -239,7 +239,7 @@ let arr = [
   },
   {
     name: '贵州气候监测系统',
-    desc: '项目为贵族智能气候监测与评价业务平台，提供数据查询、数据分享、GIS可视化制图等功能',
+    desc: '项目为贵州智能气候监测与评价业务平台，提供数据查询、数据分享、GIS可视化制图等功能',
     type: 1,
     date: '2020.10 - 2021.02',
     logo: './assets/images/gzqh_logo.webp',
