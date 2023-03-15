@@ -197,10 +197,13 @@ html{
     padding: 1.5rem 1.5rem 3rem;
   }
   .card-item {
-    height: 22rem;
+    height: 19rem;
     flex: 0 0 100%;
     padding: 1.5rem;
     margin-top: 1.5rem;
+  }
+  .card-item .img-wrap{
+    height: 9rem;
   }
   .empty-item{
     display: none;
