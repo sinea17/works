@@ -1,5 +1,32 @@
 let arr = [
   {
+    name: "智场移动充电官网",
+    desc: "项目为智场移动充电官网，主要提供设备展示、新闻资讯、商务咨询服务",
+    type: 1,
+    date: "2024.09 - 2024.09",
+    logo: "",
+    tags: ["Vue", "ElementPlus", "AOS", "UnoCSS"],
+    imgs: [""],
+  },
+  {
+    name: "智场移动充电运营监控中心",
+    desc: "",
+    type: 1,
+    date: "2024.06 - 2024.07",
+    logo: "",
+    tags: ["Vue", "ECharts", "ElementPlus", "Video.js"],
+    imgs: [""],
+  },
+  {
+    name: "智场移动充电云管理系统",
+    desc: "",
+    type: 1,
+    date: "2023.11 - 2023.12",
+    logo: "",
+    tags: ["Vue", "ECharts", "OpenLayers", "ElementPlus"],
+    imgs: [""],
+  },
+  {
     name: "营商环境数据大屏",
     desc: "项目为江西省高安市政府营商环境可视化数据监控大屏",
     type: 1,
